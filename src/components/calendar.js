@@ -19,10 +19,11 @@ function CalendarDemo({calendarData, dates}) {
 
     return (     
         <div className="field col-12 md:col-6">
+            HA FUNCIONADO LA SUBIDA
             <Calendar id="multiple" value={dates} onChange={(e) => calendarData(e.value)} selectionMode="multiple" readOnlyInput />
         </div> 
     );
 }
 
-export default CalendarDemo;
+export default CalendarDemo;    
                  
