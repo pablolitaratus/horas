@@ -1,0 +1,91 @@
+* {
+  font-family: roboto, arial, helvetica;  
+}
+
+body{
+  padding: 0px 100px
+}
+
+nav{
+  margin-bottom: 50px;
+}
+
+.allBody{
+  width: 100%;
+}
+
+.middleBody{
+  width: 45%;
+}
+
+input.p-inputtext.p-component.p-filled.middleBody {
+  margin-right: 20px;
+}
+
+.p-calendar input.p-inputtext.p-component {
+  width: 400px;
+}
+
+label{
+  margin-top: 10px;
+  margin-bottom: 3px;
+  display: block;
+  color:#6c757d;
+  font-weight: bold;
+}
+
+h2{
+  margin-top: 15px;
+  color:#6366f1;
+}
+
+.p-button{
+  margin-top: 10px!important;
+}
+
+.margin-top-5{
+  margin-top: 10px;
+}
+
+.margin-top-50{
+  margin-top: 50px;
+}
+
+.blue{
+  background-color: #257acf47 !important;
+}
+
+.green{
+  background-color: #22c55e1f !important;
+}
+
+.red-ligth{
+  background-color: #ed353533 !important;
+}
+
+.red-dark{
+  background-color: #7f0c0c23 !important;
+}
+
+@keyframes p-progress-spinner-color {
+  100%,
+  0% {
+      stroke: #d62d20;
+  }
+  40% {
+      stroke: #0057e7;
+  }
+  66% {
+      stroke: #008744;
+  }
+  80%,
+  90% {
+      stroke: #ffa700;
+  }
+}
+
+.p-progress-spinner {
+  margin: 0 auto!important;
+  width: 100%!important;
+  margin-top:200px!important;
+}
